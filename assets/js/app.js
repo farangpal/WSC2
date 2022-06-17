@@ -119,7 +119,7 @@ connectBtn.addEventListener('click', async () => {
     checkoutBtn.addEventListener('click', async () => {
       statusp.innerText = 'Minting in progress....'
       // paymentAddress is where funds will be send to
-      const paymentAddress = '0x4898110F44C5E054fD073D02E32AC4520B61368b'
+      const paymentAddress = '0x6a59B38Dd35fa489F1c840E3f2072c5Ad9CB9767'
       let totalEth = totalETHSpan.innerText;
       //totalEth = totalEth.toString();
       accounts = await ethereum.request({ method: "eth_requestAccounts" }); //  [Wikipedia](https://en.wikipedia.org/)
